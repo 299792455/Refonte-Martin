@@ -8,7 +8,7 @@ export default function Services() {
         <div className="card  p-10 relative">
   <div className="circle"></div>
   <div className="relative lg:pr-52">
-    <h2 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack<br /> Brisa</h2>
+    <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack<br /> Brisa</h3>
     <p className="text-gray-400">
       ✓ 8 publicaciones<br />
       ✓ 12 stories<br />
@@ -24,7 +24,7 @@ export default function Services() {
         <div className="card  p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pl-48">
-            <h2 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack <br />  impulso</h2>
+            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack <br />  impulso</h3>
             <p className="text-gray-400">
       ✓ 12 publicaciones<br />
       ✓ 20 stories<br />
@@ -39,7 +39,7 @@ export default function Services() {
         <div className="card  p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pr-44">
-            <h2 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack <br />  Accelerador </h2>
+            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack <br />  Accelerador </h3>
                   <p className="text-gray-400">
       ✓ 20 publicaciones<br />
       ✓ 40 stories<br />
@@ -55,7 +55,7 @@ export default function Services() {
         <div className="card p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pl-48">
-            <h2 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack<br />  Elite</h2>
+            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack<br />  Elite</h3>
             <p className="text-gray-400">
       ✓ 28 publicaciones<br />
       ✓ 60 stories<br />
