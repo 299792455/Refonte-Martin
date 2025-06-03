@@ -28,7 +28,7 @@ export default function Navbar() {
         scrolled ? "bg-black-900/70" : "bg-black-900/50"
       }`}
     >
-      <div className="flex items-center justify-between max-w-7xl mx-auto">
+      <div className="flex items-center justify-between mx-aut">
         {/* Logo */}
         <div className="flex items-center">
           <div className="mr-2 w-10 h-10 relative">
@@ -59,7 +59,7 @@ export default function Navbar() {
           <div className="relative ml-4 group">
             
             <button className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#fff8dc]/5 shadow-md group ml-4">
-  <span className="relative z-10">Abonate !</span>
+  <span className="relative z-10">Empecamos ya!</span>
 
   {/* Brillance oblique */}
   <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />

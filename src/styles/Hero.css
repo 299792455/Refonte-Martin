@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
 @import url("https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css");
 
-/* Copie ici tout le CSS que tu as donné (entier) */
+
 :root {
   --color-white-100: hsl(206, 5%, 100%);
   --color-white-200: hsl(206, 5%, 90%);
@@ -35,4 +35,3 @@
 
 
 
-/* Ensuite tout le reste de ton CSS ici… */

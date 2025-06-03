@@ -41,6 +41,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Space Mono', monospace;
-  font-size: 3rem; /* 3rem sur desktop */
+  font-size: 2rem; /* 3rem sur desktop */
   color: #ffffff; /* blanc */
 }
