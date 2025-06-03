@@ -9,7 +9,7 @@ export default function Hero() {
             {/* BLUR DORÉ */}
             <div className="absolute inset-0 bg-[#FFF]/20 rounded-full blur-3xl" />
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white pb-2 relative">
-  Online Dreams Makers
+  OnlineDreamsMakers
 </h1>
           </div>
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mb-8">
