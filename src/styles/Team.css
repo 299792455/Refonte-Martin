@@ -1,5 +1,4 @@
-/* components/Team.css */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;800&display=swap");
+
 
 /* == Racine du composant == */
 .team-section {
@@ -10,7 +9,7 @@
   text-align: center;
   width: calc(min(90rem, 90%));
   margin-inline: auto;
-  position: relative; /* nécessaire pour le positionnement de .bg-watermark */
+  position: relative; 
 }
 
 /* Tous les textes (span, p, h2, h3) à l’intérieur de .team-section */
@@ -43,7 +42,7 @@
   letter-spacing: 0.5rem;
 }
 
-/* Style du petit titre “meet our” */
+
 .team-section span {
   text-transform: uppercase;
   display: block;

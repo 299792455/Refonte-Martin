@@ -3,9 +3,12 @@ import "../../styles/Services.css";
 
 export default function Services() {
   return (
-    <section className="min-h-screen bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+    <section className=" bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+      
       <div className="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-8xl mx-auto">
+        
         <div className="card  p-10 relative">
+          
   <div className="circle"></div>
   <div className="relative lg:pr-52">
     <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Pack<br /> Brisa</h3>
@@ -61,7 +64,7 @@ export default function Services() {
       ✓ 60 stories<br />
       ✓ 8 reels<br />
       ✓ 300€ en publicidad incluidos<br />
-      ✓ Informe completo con KPI's<br />
+      ✓ Informe completo con KPIs<br />
       ✓ Cena exclusiva de networking
     </p>
           </div>
