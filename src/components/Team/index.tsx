@@ -86,29 +86,7 @@ contenido</p>
             </ul>
           </div>
         </div>
-        <div className="card">
-          <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Nouvelle Personne"
-          />
-          <div className="card-content">
-            <h3>ADRIÁN</h3>
-            <p>Aprendiz del tiempo y la transición
-            </p>
-            <ul>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-x-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-linkedin-in" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

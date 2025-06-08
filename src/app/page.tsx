@@ -3,7 +3,7 @@ import Background from "../components/Background";
 import Contact from "../components/Contact";
 import Services from "../components/Services";
 import Team from "../components/Team/index";
-import ExclusiveService from "@/components/ExclusiveService";
+//import ExclusiveService from "@/components/ExclusiveService";
 import "@fortawesome/fontawesome-free/css/all.min.css"
 import CardExclusiveService from "@/components/CardExclusiveService";
 export default function Home() {
@@ -11,9 +11,9 @@ export default function Home() {
     <main className="bg-black text-white font-['Space_Grotesk'] overflow-x-hidden">
       <Background />
       <Hero />
-      <ExclusiveService />
-      <CardExclusiveService />
       <Services />
+      <CardExclusiveService />
+      
       <Team />
      
     <Contact />
