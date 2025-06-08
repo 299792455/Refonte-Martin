@@ -3,7 +3,7 @@ import "../../styles/Services.css";
 
 export default function Services() {
   return (
-    <section className=" bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center">
+    <section className=" bg-gray-900 text-center py-20 px-8 xl:px-0 flex flex-col justify-center max-w-[1600px] mx-auto">
       
       <div className="grid-offer text-left grid sm:grid-cols-2 md:grid-cols-2 gap-5 max-w-8xl mx-auto">
         

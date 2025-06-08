@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-400 max-w-3xl mb-8">
-            UN ECOSISTEMA EN EL QUE SOLO UNOS POCOS SABEN
+            UN ECOSISTEMA EN EL QUE <br />SOLO UNOS POCOS SABEN
           </p>
         </div>
       </div>

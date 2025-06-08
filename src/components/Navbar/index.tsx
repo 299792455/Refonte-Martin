@@ -41,7 +41,7 @@ export default function Navbar() {
   />
 </div>
           <div className="text-xl font-medium  bg-clip-text text-white">
-            Online Dreams Makers
+            OnlineDreamsMakers
           </div>
         </div>
 

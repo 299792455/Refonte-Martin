@@ -40,7 +40,7 @@ export default function ContactForm() {
             Message
           </label>
         </div>
-        <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
+        
         <button
           type="submit"
           className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 rounded transition duration-300"

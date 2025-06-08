@@ -1,12 +1,13 @@
 
 .advertisers-service-sec .container {
-  max-width: 1440px;       /* ajustez selon la largeur désirée */
+  max-width: 1440px;       
   margin-right: auto;
-  
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .cards-grid {
   display: grid;
   /* Toujours 3 colonnes égales en desktop */
