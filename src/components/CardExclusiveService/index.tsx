@@ -175,7 +175,7 @@ export default function CardExclusiveService() {
               <span className="ces-end-text">EXP. </span>
               <span className="ces-end-date">SUPREMACÍA</span>
             </div>
-            <div className="ces-card-holder">PARA LA ÉLITE</div>
+            <div className="ces-card-holder">SOLO PARA LA ÉLITE</div>
             <div className="ces-master">
   <div className="ces-flip-arrow">➜</div>
 </div>

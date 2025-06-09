@@ -222,15 +222,35 @@
 
 /* === Couleurs par pack === */
 .ces-front-brisa, .ces-back-brisa {
-  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Bleu */
-  
+  /*background: linear-gradient(135deg, #1e3c72, #2a5298); /* Bleu */
+  background: linear-gradient(135deg, #ffffff, #ffffff);
+  color: black;
 }
 .ces-back-brisa .text-gray-400 {
     font-size: 14px !important;
 }
+.ces-back-brisa .ces-back-title {
+  color: black;
+}
+.ces-back-brisa .ces-back-list li {
+  color: black;
+}
+
+.ces-front-brisa .ces-end .ces-end-text,
+.ces-front-brisa .ces-end .ces-end-date {
+  color: black !important;
+}
+
+.ces-front-brisa .ces-master .ces-flip-arrow {
+  color: black !important;
+}
+
+.ces-back-brisa .ces-card-holder {
+  color: black;
+}
 
 .ces-front-impulso, .ces-back-impulso {
-  background: linear-gradient(135deg, #b8b8b8, #9b9393); /* Argent */
+  background: linear-gradient(135deg, #b8b8b8, #5a5555); /* Argent */
 }
 .ces-back-impulso .text-gray-400 {
     font-size: 14px !important;
