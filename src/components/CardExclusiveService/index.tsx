@@ -10,9 +10,8 @@ export default function CardExclusiveService() {
           <div className="ces-front ces-front-brisa">
             <div className="ces-strip-bottom"></div>
             <div className="ces-strip-top"></div>
-            <svg className="ces-logo" width="40" height="40" viewBox="0 0 17.5 16.2" fill="white">
-              <path d="M3.2 0l5.4 5.6L14.3 0l3.2 3v9L13 16.2V7.8l-4.4 4.1L4.5 8v8.2L0 12V3l3.2-3z" />
-            </svg>
+            <img src="/medias/Design sans titre.png" alt="Logo" className="ces-logo" width="60" height="60" />
+
             <div className="ces-investor">Pack BRISA</div>
             <div className="ces-chip">
               <div className="ces-chip-line"></div>
@@ -22,20 +21,19 @@ export default function CardExclusiveService() {
               <div className="ces-chip-main"></div>
             </div>
             <div className="ces-card-number">
-              <div className="section">5453</div>
-              <div className="section">2000</div>
+              <div className="section">BRISA</div>
+              <div className="section">3333</div>
               <div className="section">0000</div>
               <div className="section">0000</div>
             </div>
             <div className="ces-end">
-              <span className="ces-end-text">exp. end:</span>
-              <span className="ces-end-date">11/22</span>
+              <span className="ces-end-text">EXP. </span>
+              <span className="ces-end-date">ESENCIAL</span>
             </div>
-            <div className="ces-card-holder">mr Filip Vitas</div>
+            <div className="ces-card-holder">El basico de lo basico </div>
             <div className="ces-master">
-              <div className="ces-circle ces-master-red"></div>
-              <div className="ces-circle ces-master-yellow"></div>
-            </div>
+  <div className="ces-flip-arrow">➜</div>
+</div>
           </div>
           <div className="ces-back ces-back-brisa">
             <div className="ces-strip-black"></div>
@@ -60,9 +58,7 @@ export default function CardExclusiveService() {
           <div className="ces-front ces-front-impulso">
             <div className="ces-strip-bottom"></div>
             <div className="ces-strip-top"></div>
-            <svg className="ces-logo" width="40" height="40" viewBox="0 0 17.5 16.2" fill="white">
-              <path d="M3.2 0l5.4 5.6L14.3 0l3.2 3v9L13 16.2V7.8l-4.4 4.1L4.5 8v8.2L0 12V3l3.2-3z" />
-            </svg>
+            <img src="/medias/Design sans titre.png" alt="Logo" className="ces-logo" width="60" height="60" />
             <div className="ces-investor">PACK IMPULSO</div>
             <div className="ces-chip">
               <div className="ces-chip-line"></div>
@@ -72,20 +68,19 @@ export default function CardExclusiveService() {
               <div className="ces-chip-main"></div>
             </div>
             <div className="ces-card-number">
-              <div className="section">1111</div>
-              <div className="section">2222</div>
-              <div className="section">3333</div>
+              <div className="section">IMPLS</div>
+              <div className="section">4444</div>
+              <div className="section">0000</div>
               <div className="section">4444</div>
             </div>
             <div className="ces-end">
-              <span className="ces-end-text">exp. end:</span>
-              <span className="ces-end-date">01/25</span>
+              <span className="ces-end-text">EXP. </span>
+              <span className="ces-end-date">BOOST</span>
             </div>
-            <div className="ces-card-holder">ms Anna</div>
+            <div className="ces-card-holder">IMPULSO CREATIVO</div>
             <div className="ces-master">
-              <div className="ces-circle ces-master-red"></div>
-              <div className="ces-circle ces-master-yellow"></div>
-            </div>
+  <div className="ces-flip-arrow">➜</div>
+</div>
           </div>
           <div className="ces-back ces-back-impulso">
             <div className="ces-strip-black"></div>
@@ -110,9 +105,7 @@ export default function CardExclusiveService() {
           <div className="ces-front ces-front-accelerador">
             <div className="ces-strip-bottom"></div>
             <div className="ces-strip-top"></div>
-            <svg className="ces-logo" width="40" height="40" viewBox="0 0 17.5 16.2" fill="white">
-              <path d="M3.2 0l5.4 5.6L14.3 0l3.2 3v9L13 16.2V7.8l-4.4 4.1L4.5 8v8.2L0 12V3l3.2-3z" />
-            </svg>
+            <img src="/medias/Design sans titre.png" alt="Logo" className="ces-logo" width="60" height="60" />
             <div className="ces-investor">PACK ACCELERADOR</div>
             <div className="ces-chip">
               <div className="ces-chip-line"></div>
@@ -122,20 +115,19 @@ export default function CardExclusiveService() {
               <div className="ces-chip-main"></div>
             </div>
             <div className="ces-card-number">
-              <div className="section">9876</div>
-              <div className="section">5432</div>
+              <div className="section">ACLRD</div>
+              <div className="section">8888</div>
               <div className="section">1098</div>
               <div className="section">7654</div>
             </div>
             <div className="ces-end">
-              <span className="ces-end-text">exp. end:</span>
-              <span className="ces-end-date">07/24</span>
+              <span className="ces-end-text">EXP. </span>
+              <span className="ces-end-date">CONQUISTA</span>
             </div>
-            <div className="ces-card-holder">dr John Doe</div>
+            <div className="ces-card-holder">VELOCIDAD Y RESULTADOS</div>
             <div className="ces-master">
-              <div className="ces-circle ces-master-red"></div>
-              <div className="ces-circle ces-master-yellow"></div>
-            </div>
+  <div className="ces-flip-arrow">➜</div>
+</div>
           </div>
           <div className="ces-back ces-back-accelerador">
             <div className="ces-strip-black"></div>
@@ -160,9 +152,7 @@ export default function CardExclusiveService() {
           <div className="ces-front ces-front-elite">
             <div className="ces-strip-bottom"></div>
             <div className="ces-strip-top"></div>
-            <svg className="ces-logo" width="40" height="40" viewBox="0 0 17.5 16.2" fill="white">
-              <path d="M3.2 0l5.4 5.6L14.3 0l3.2 3v9L13 16.2V7.8l-4.4 4.1L4.5 8v8.2L0 12V3l3.2-3z" />
-            </svg>
+            <img src="/medias/Design sans titre.png" alt="Logo" className="ces-logo" width="60" height="60" />
             <div className="ces-investor">PACK ELITE</div>
             <div className="ces-chip">
               <div className="ces-chip-line"></div>
@@ -172,20 +162,19 @@ export default function CardExclusiveService() {
               <div className="ces-chip-main"></div>
             </div>
             <div className="ces-card-number">
-              <div className="section">1357</div>
-              <div className="section">2468</div>
+              <div className="section">ELITE</div>
+              <div className="section">9999</div>
               <div className="section">3579</div>
               <div className="section">4680</div>
             </div>
             <div className="ces-end">
-              <span className="ces-end-text">exp. end:</span>
-              <span className="ces-end-date">12/23</span>
+              <span className="ces-end-text">EXP. </span>
+              <span className="ces-end-date">SUPREMACÍA</span>
             </div>
-            <div className="ces-card-holder">ms Eve</div>
+            <div className="ces-card-holder">PARA LA ÉLITE</div>
             <div className="ces-master">
-              <div className="ces-circle ces-master-red"></div>
-              <div className="ces-circle ces-master-yellow"></div>
-            </div>
+  <div className="ces-flip-arrow">➜</div>
+</div>
           </div>
           <div className="ces-back ces-back-elite">
             <div className="ces-strip-black"></div>
