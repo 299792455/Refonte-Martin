@@ -32,21 +32,22 @@ export default function CardExclusiveService() {
             </div>
             <div className="ces-card-holder">El basico de lo basico </div>
             <div className="ces-master">
-  <div className="ces-flip-arrow">➜</div>
-</div>
+             <div className="ces-flip-arrow">➜</div>
           </div>
-          <div className="ces-back ces-back-brisa">
+        </div>
+        <div className="ces-back ces-back-brisa">
+          <h3 className="ces-back-title">Detalles de tu Pack</h3>
             <div className="ces-strip-black"></div>
             
             <div className="ces-terms">
-               <p className="text-gray-400">
-                ✓ 8 publicaciones<br />
-                ✓ 12 stories<br />
-                ✓ 2 reels<br />
-                ✓ 20€ en publicidad incluidos<br />
-                ✓ Mini informe mensual<br />
-                ✓ Sorpresa de bienvenida
-                </p>
+              <ul className="ces-back-list bronze">
+                <li>Visibilidad: 8 publicaciones destacadas</li>
+                <li>12 stories cautivadoras</li>
+                <li>Producción de 2 reels únicos</li>
+                <li>20€ en publicidad para impulsar tu marca</li>
+                <li>Mini informe mensual con resultados clave</li>
+                <li>Sorpresa especial de bienvenida</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -83,17 +84,18 @@ export default function CardExclusiveService() {
 </div>
           </div>
           <div className="ces-back ces-back-impulso">
+            <h3 className="ces-back-title">Detalles de tu Pack</h3>
             <div className="ces-strip-black"></div>
             
            <div className="ces-terms">
-               <p className="text-gray-400">
-      ✓ 12 publicaciones<br />
-      ✓ 20 stories<br />
-      ✓ 4 reels<br />
-      ✓ 50€ en publicidad incluidos<br />
-      ✓ Informe detallado mensual<br />
-      ✓ Mini tutorial de grabación
-    </p>
+               <ul className="ces-back-list silver">
+  <li>Visibilidad: 12 publicaciones premium</li>
+  <li>20 stories dinámicas</li>
+  <li>Producción de 4 reels creativos</li>
+  <li>50€ en publicidad para tu crecimiento</li>
+  <li>Informe mensual detallado y consejos</li>
+  <li>Tutorial de grabación para mejorar tu contenido</li>
+</ul>
             </div>
           </div>
         </div>
@@ -130,17 +132,19 @@ export default function CardExclusiveService() {
 </div>
           </div>
           <div className="ces-back ces-back-accelerador">
+            <h3 className="ces-back-title">Detalles de tu Pack</h3>
             <div className="ces-strip-black"></div>
             
             <div className="ces-terms">
-              <p className="text-gray-400">
-      ✓ 20 publicaciones<br />
-      ✓ 40 stories<br />
-      ✓ 6 reels<br />
-      ✓ 150€ en publicidad incluidos<br />
-      ✓ Estadisticas avanzadas<br />
-      ✓ Asesoria personalizada
-    </p>
+              <ul className="ces-back-list gold">
+  <li>Visibilidad: 20 publicaciones impactantes</li>
+  <li>40 stories profesionales</li>
+  <li>6 reels de alto rendimiento</li>
+  <li>150€ en publicidad estratégica</li>
+  <li>Estadísticas avanzadas y seguimiento constante</li>
+  <li>Asesoría personalizada para potenciar tu marca</li>
+</ul>
+
             </div>
           </div>
         </div>
@@ -177,17 +181,19 @@ export default function CardExclusiveService() {
 </div>
           </div>
           <div className="ces-back ces-back-elite">
+            <h3 className="ces-back-title">Detalles de tu Pack</h3>
             <div className="ces-strip-black"></div>
           
             <div className="ces-terms">
-             <p className="text-gray-400">
-      ✓ 28 publicaciones<br />
-      ✓ 60 stories<br />
-      ✓ 8 reels<br />
-      ✓ 300€ en publicidad incluidos<br />
-      ✓ Informe completo con KPIs<br />
-      ✓ Cena exclusiva de networking
-    </p>
+             <ul className="ces-back-list elite">
+  <li>Visibilidad: 28 publicaciones exclusivas</li>
+  <li>60 stories de máxima calidad</li>
+  <li>8 reels únicos e inolvidables</li>
+  <li>300€ en publicidad premium para tu marca</li>
+  <li>Informe completo con KPIs detallados</li>
+  <li>Cena exclusiva de networking y contactos clave</li>
+</ul>
+
             </div>
           </div>
         </div>
