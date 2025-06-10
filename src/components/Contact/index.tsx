@@ -4,7 +4,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <section className="flex justify-center items-center bg-black text-white py-10 px-4">
+    <section className="z-10 flex justify-center items-center bg-black text-white py-10 px-4">
       <form className="bg-zinc-900 p-8 rounded-lg shadow-lg w-full max-w-md space-y-6">
         <h1 className="text-2xl text-white-500 font-bold text-center mb-4">Contact Us</h1>
 
