@@ -7,6 +7,11 @@ const ExclusiveService: React.FC = () => {
       id="advertisers"
       className="advertisers-service-sec pt-5 pb-5"
     >
+      <span>nuestro</span>
+      <h2>EQUIPO</h2>
+      <p>
+        UN EQUIPO CON VISIÓN, CORAZÓN Y ACCIÓN
+      </p>
       <div className="container">
         <div className="row">
           <div className="section-header text-center">

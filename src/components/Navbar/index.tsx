@@ -21,6 +21,9 @@ export default function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
+  // Liens pour les sections du one-page
+  const navLinks = ["Inicio", "Servicios", "PacksExclusivos", "Equipo"];
+
   return (
     <nav
       id="navbar"
@@ -28,43 +31,41 @@ export default function Navbar() {
         scrolled ? "bg-black-900/70" : "bg-black-900/50"
       }`}
     >
-      <div className="flex items-center justify-between mx-aut">
+      <div className="flex items-center justify-between mx-auto">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="mr-2 w-10 h-10 relative">
-  <Image
-    src="/medias/Design sans titre.png"
-    alt="Online Dreams Makers logo"
-    fill
-    className="object-contain"
-    priority
-  />
-</div>
-          <div className="text-xl font-medium  bg-clip-text text-white">
-            OnlineDreamsMakers
+          <div className="mr-2 w-20 h-20 relative">
+            <Image
+              src="/medias/Design sans titre.png"
+              alt="Online Dreams Makers logo"
+              fill
+              className="object-contain"
+              priority
+            />
           </div>
         </div>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center space-x-1">
-          {['Inicio', 'Quienes Somos', 'servicios', 'Medias'].map((id) => (
+          {navLinks.map((id) => (
             <a
               key={id}
               href={`#${id}`}
-              className="nav-link text-gray-300 hover:text-cyan-400 px-4 py-2 rounded-md transition-colors duration-200"
+              className="nav-link text-gray-300 hover:text-[#dfa30b] px-4 py-2 rounded-md transition-colors duration-200"
             >
-              {id.charAt(0).toUpperCase() + id.slice(1)}
+              {id.replace(/([A-Z])/g, " $1").trim()}
             </a>
           ))}
+
+          {/* Bouton Contacto séparé pour l’effet visuel */}
           <div className="relative ml-4 group">
-            
-            <button className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#fff8dc]/5 shadow-md group ml-4">
-  <span className="relative z-10">Empecamos ya!</span>
-
-  {/* Brillance oblique */}
-  <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
-</button>
-
+            <a
+    href="#Contacto"
+    className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#fff8dc]/5 shadow-md group"
+  >
+    <span className="relative z-10">Contacto</span>
+    <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
+  </a>
           </div>
         </div>
 
@@ -78,17 +79,17 @@ export default function Navbar() {
           >
             <div className="absolute w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
               <span
-                className={`block h-0.5 w-5 bg-cyan-400 mb-1 transition duration-300 ease-in-out ${
+                className={`block h-0.5 w-5 bg-[#dfa30b] mb-1 transition duration-300 ease-in-out ${
                   menuOpen ? "rotate-45 translate-y-1.5" : ""
                 }`}
               ></span>
               <span
-                className={`block h-0.5 w-5 bg-cyan-400 mb-1 transition duration-300 ease-in-out ${
+                className={`block h-0.5 w-5 bg-[#dfa30b] mb-1 transition duration-300 ease-in-out ${
                   menuOpen ? "opacity-0" : ""
                 }`}
               ></span>
               <span
-                className={`block h-0.5 w-5 bg-cyan-400 transition duration-300 ease-in-out ${
+                className={`block h-0.5 w-5 bg-[#dfa30b] transition duration-300 ease-in-out ${
                   menuOpen ? "-rotate-45 -translate-y-1.5" : ""
                 }`}
               ></span>
@@ -105,21 +106,29 @@ export default function Navbar() {
         }`}
       >
         <div className="space-y-1">
-          {['Inicio', 'Quienes Somos', 'Servicios', 'Medias', 'contact'].map((id) => (
+          {navLinks.map((id) => (
             <a
               key={id}
               href={`#${id}`}
               className="mobile-nav-link block text-gray-300 hover:text-cyan-400 hover:bg-gray-800/50 px-4 py-2 rounded-md transition-colors duration-200"
               onClick={() => setMenuOpen(false)}
             >
-              {id.charAt(0).toUpperCase() + id.slice(1)}
+              {id.replace(/([A-Z])/g, " $1").trim()}
             </a>
           ))}
           <div className="px-4 pt-2">
-            <button className="contact-btn w-full px-4 py-2 bg-gradient-to-r from-indigo-700 to-purple-700 rounded-lg text-white text-sm font-medium">
-              <span className="bg-gradient-to-r from-cyan-300 to-indigo-300 bg-clip-text text-transparent">Empecamos ya!</span>
-            </button>
-          </div>
+  <div className="relative group">
+    <a
+      href="#Contacto"
+      className="relative overflow-hidden block text-center px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] bg-[#111]/90 hover:bg-[#1a1a1a] shadow-md group"
+      onClick={() => setMenuOpen(false)}
+    >
+      <span className="relative z-10">Contacto</span>
+      <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
+    </a>
+  </div>
+</div>
+
         </div>
       </div>
     </nav>

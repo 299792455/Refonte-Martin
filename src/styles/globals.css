@@ -27,6 +27,8 @@
   }
 }
 
+html { scroll-behavior: smooth; }
+
 body {
   background: var(--background);
     font-family: 'Space Mono', monospace;
@@ -43,4 +45,8 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem; /* 3rem sur desktop */
   color: #ffffff; 
+}
+
+.nav-link, .mobile-nav-link, .contact-btn {
+  font-family: 'Montserrat', sans-serif;
 }

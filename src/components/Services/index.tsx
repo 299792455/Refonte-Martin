@@ -11,11 +11,11 @@ export default function Services() {
           
   <div className="circle"></div>
   <div className="relative lg:pr-52">
-    <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Redes<br /> Sociales</h3>
+    <h3 className="capitalize text-white mb-4 service-title">Redes<br /> Sociales</h3>
     <p className="text-gray-400">
-      ✓ 8 publicaciones<br />
-      ✓ 12 stories<br />
-      ✓ 2 reels
+      Impulsa tu marca en las redes sociales con contenido cautivador y auténtico. 
+Generamos impacto con estrategias creativas y coherentes. <br />
+Conéctate de forma orgánica con tu audiencia y gana visibilidad real.
     </p>
   </div>
 </div>
@@ -24,11 +24,11 @@ export default function Services() {
         <div className="card  p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pl-48">
-            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Diseno <br />  Web</h3>
+            <h3 className="capitalize text-white mb-4 service-title">Diseno <br />  Web</h3>
             <p className="text-gray-400">
-      ✓ 12 publicaciones<br />
-      ✓ 20 stories<br />
-      ✓ 4 reels
+      Creamos sitios web que no solo son bellos, sino también funcionales.
+Potenciamos la experiencia del usuario para convertir cada visita en un logro.<br />
+Tu presencia digital, a la altura de tu visión.
     </p>
           </div>
         </div>
@@ -36,11 +36,11 @@ export default function Services() {
         <div className="card  p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pr-44">
-            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Creacion <br />Video</h3>
+            <h3 className="capitalize text-white mb-4 service-title">Creacion <br />Video</h3>
                   <p className="text-gray-400">
-      ✓ 20 publicaciones<br />
-      ✓ 40 stories<br />
-      ✓ 6 reels
+      Transformamos ideas en historias visuales que impactan y conectan.
+Cada video es una pieza única, pensada para emocionar y fidelizar.<br />
+Haz que tu mensaje brille en cada cuadro.
     </p>
          
           </div>
@@ -49,11 +49,11 @@ export default function Services() {
         <div className="card p-10 relative">
           <div className="circle"></div>
           <div className="relative lg:pl-48">
-            <h3 className="capitalize text-white mb-4 text-2xl xl:text-3xl">Gestion<br />  Marca</h3>
+            <h3 className="capitalize text-white mb-4 service-title">Gestion<br />  Marca</h3>
             <p className="text-gray-400">
-      ✓ 28 publicaciones<br />
-      ✓ 60 stories<br />
-      ✓ 8 reels
+     Llevamos tu marca al siguiente nivel con una gestión integral y sólida.
+Definimos la voz, la imagen y la estrategia que harán que destaques.<br />
+Deja que tu esencia hable y se quede en la mente de tu público.
     </p>
           </div>
         </div>

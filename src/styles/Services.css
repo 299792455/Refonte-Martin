@@ -1,4 +1,12 @@
 
+section .text-gray-400 {
+  font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
+  margin: 0 auto 1rem;
+  text-align: left;
+ z-index: 1;
+  position: relative;
+  color: #a3a3a3
+}
 
 
 .card {
@@ -6,6 +14,13 @@
   max-width: 1440px;
   
 }
+.service-title {
+  font-size: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  font-weight: 700;
+  font-family: 'horizon', sans-serif;
+  text-transform: uppercase;
+}
+
 
 .card::before {
   position: absolute;
@@ -25,25 +40,25 @@
  
   bottom: 0;
   right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 100%);
+  clip-path: circle(calc(4.375rem + 5vw) at 100% 100%);
 }
 
 .card:nth-child(2)::before {
   bottom: 0;
   left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 100%);
+  clip-path: circle(calc(4.375rem + 5vw) at 0% 100%);
 }
 
 .card:nth-child(3)::before {
   top: 0;
   right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 0%);
+  clip-path: circle(calc(4.375rem + 5vw) at 100% 0%);
 }
 
 .card:nth-child(4)::before {
   top: 0;
   left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 0%);
+  clip-path: circle(calc(4.375rem + 5vw) at 0% 0%);
 }
 
 .card p {
@@ -69,26 +84,26 @@
   border: #b8860b solid 1px;
   bottom: 0;
   right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 100%);
+  clip-path: circle(calc(4.375rem + 5vw) at 100% 100%);
 }
 
 .card:nth-child(2) .circle {
- border: #b8860b solid 1px;
+  border: #b8860b solid 1px;
   bottom: 0;
   left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 100%);
+  clip-path: circle(calc(4.375rem + 5vw) at 0% 100%);
 }
 
 .card:nth-child(3) .circle {
   border: #b8860b solid 1px;
   top: 0;
   right: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 100% 0%);
+  clip-path: circle(calc(4.375rem + 5vw) at 100% 0%);
 }
 
 .card:nth-child(4) .circle {
   border: #b8860b solid 1px;
   top: 0;
   left: 0;
-  clip-path: circle(calc(6.25rem + 7.5vw) at 0% 0%);
+  clip-path: circle(calc(4.375rem + 5vw) at 0% 0%);
 }
