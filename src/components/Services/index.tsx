@@ -16,8 +16,8 @@ export default function Services() {
             <h3 className="capitalize text-white mb-4 service-title">Redes<br /> Sociales</h3>
             <p className="text-gray-400">
               Impulsa tu marca en las redes sociales con contenido cautivador y auténtico. 
-        Generamos impacto con estrategias creativas y coherentes. <br />
-        Conéctate de forma orgánica con tu audiencia y gana visibilidad real.
+        Generamos impacto con estrategias creativas y coherentes. <br /><br />
+        Conéctate de forma orgánica con tu audiencia.
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ export default function Services() {
             <h3 className="capitalize text-white mb-4 service-title">Diseño <br />  Web</h3>
             <p className="text-gray-400">
       Creamos sitios web que no solo son bellos, sino también funcionales.
-Potenciamos la experiencia del usuario para convertir cada visita en un logro.<br />
+Potenciamos la experiencia del usuario para convertir cada visita en un logro.<br /> <br />
 Tu presencia digital, a la altura de tu visión.
     </p>
           </div>
@@ -41,7 +41,7 @@ Tu presencia digital, a la altura de tu visión.
             <h3 className="capitalize text-white mb-4 service-title">Creacion <br />Video</h3>
                   <p className="text-gray-400">
       Transformamos ideas en historias visuales que impactan y conectan.
-Cada video es una pieza única, pensada para emocionar y fidelizar.<br />
+Cada video es una pieza única, pensada para emocionar y fidelizar.<br /><br />
 Haz que tu mensaje brille en cada cuadro.
     </p>
          
@@ -54,8 +54,8 @@ Haz que tu mensaje brille en cada cuadro.
             <h3 className="capitalize text-white mb-4 service-title">Gestion<br />  Marca</h3>
             <p className="text-gray-400">
      Llevamos tu marca al siguiente nivel con una gestión integral y sólida.
-Definimos la voz, la imagen y la estrategia que harán que destaques.<br />
-Deja que tu esencia hable y se quede en la mente de tu público.
+Definimos la voz, la imagen y la estrategia que harán que destaques.<br /><br />
+Tu esencia se quede en la mente de tu público.
     </p>
           </div>
         </div>

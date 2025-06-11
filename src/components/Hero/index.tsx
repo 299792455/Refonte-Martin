@@ -17,7 +17,7 @@ function FloatingPaths({ position }: { position: number }) {
   }));
 
   return (
-    <div className="absolute inset-0 pointer-events-none z-0 " style={{ maxWidth: "100%" }}>
+    <div className="absolute inset-0 pointer-events-none z-0 " >
       <svg
         className="w-full h-full text-[#dfa30b] dark:text-[#dfa30b]"
         viewBox="0 0 696 316"
@@ -65,27 +65,36 @@ export default function Hero() {
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="flex flex-col items-center text-center">
           <div className="relative mb-4">
-            <h1 className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight flex flex-col items-center">
-  <span className="flex items-center ">
-    <img
-      src="/medias/Design sans titre.png"
-      alt="Logo"
-      className="inline-block w-20 h-20 md:w-25 md:h-25 object-contain "
-    />
-    <span className="-ml-3">nline</span>
-  </span>
-  <span>DreamsMakers</span>
-</h1>
-
-        </div>
-        <div className="w-full flex justify-center">
-    <p className=" text-xl md:text-2xl text-gray-400 max-w-3xl mb-8">
-      UN ECOSISTEMA EN EL QUE SOLO UNOS POCOS SABEN JUGAR
-    </p>
-  </div>
+            {/* Animation sur le titre */}
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+              className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight flex flex-col items-center"
+            >
+              <span className="flex items-center ">
+                <img
+                  src="/medias/Design sans titre.png"
+                  alt="Logo"
+                  className="inline-block w-20 h-20 md:w-25 md:h-25 object-contain "
+                />
+                <span className="-ml-3">nline</span>
+              </span>
+              <span>DreamsMakers</span>
+            </motion.h1>
           </div>
 
-           
+          <div className="w-full flex justify-center">
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.4, duration: 1, ease: "easeOut" }}
+              className="text-xl md:text-2xl text-gray-400 max-w-3xl mb-8"
+            >
+              UN ECOSISTEMA EN EL QUE SOLO UNOS POCOS SABEN JUGAR
+            </motion.p>
+          </div>
+        </div>
       </div>
 
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-10">

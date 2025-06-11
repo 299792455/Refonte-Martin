@@ -16,6 +16,12 @@ section .text-gray-400 {
   max-width: 1440px;
   
 }
+
+.card p {
+  transition: 0.8s;
+  text-align: justify; /* 👈 Ajoute cette ligne */
+}
+
 section h2 {
   font-size: clamp(2rem, 1.6rem + 1.6vw, 3rem);
   font-weight: 700;

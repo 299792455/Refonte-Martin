@@ -69,6 +69,6 @@ p {
 }
 
 .logo-flip {
-  animation: flip-logo 30s linear infinite;
+  animation: flip-logo 15s linear infinite;
   transform-origin: center;
 }
