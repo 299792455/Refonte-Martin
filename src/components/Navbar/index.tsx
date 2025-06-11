@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="flex items-center justify-between mx-auto">
         {/* Logo */}
         <div className="flex items-center">
-          <div className="mr-2 w-20 h-20 relative">
+          <div className="mr-2 w-20 h-20 relative logo-flip">
             <Image
               src="/medias/Design sans titre.png"
               alt="Online Dreams Makers logo"
@@ -58,7 +58,7 @@ export default function Navbar() {
           ))}
 
           {/* Bouton Contacto séparé pour l’effet visuel */}
-          <div className="relative ml-4 group">
+          <div className="relative ml-4 group flex justify-center">
             <a
     href="#Contacto"
     className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#fff8dc]/5 shadow-md group"
