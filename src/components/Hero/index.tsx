@@ -17,7 +17,7 @@ function FloatingPaths({ position }: { position: number }) {
   }));
 
   return (
-    <div className="absolute inset-0 pointer-events-none z-0">
+    <div className="absolute inset-0 pointer-events-none z-0 " style={{ maxWidth: "100%" }}>
       <svg
         className="w-full h-full text-[#dfa30b] dark:text-[#dfa30b]"
         viewBox="0 0 696 316"
@@ -53,7 +53,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden "style={{ maxWidth: "100%" }}
     >
       {/* Motion background intégré */}
       <div className="absolute inset-0 z-0">
@@ -63,29 +63,26 @@ export default function Hero() {
 
       {/* Contenu Hero inchangé */}
       <div className="container mx-auto px-6 py-20 relative z-10">
-        <div className="flex flex-col items-end text-right">
+        <div className="flex flex-col items-center text-center">
           <div className="relative mb-4">
-            <h1 className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight">
+            <h1 className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight flex flex-col items-center">
+  <span className="flex items-center ">
+    <img
+      src="/medias/Design sans titre.png"
+      alt="Logo"
+      className="inline-block w-20 h-20 md:w-25 md:h-25 object-contain "
+    />
+    <span className="-ml-3">nline</span>
+  </span>
+  <span>DreamsMakers</span>
+</h1>
 
-              <span className="flex items-center -mb-20 md:-mb-25 lg:-mb-25">
-                <img
-                  src="/medias/Design sans titre.png"
-                  alt="Logo"
-                  className="inline-block w-20 h-20 md:w-30 md:h-30 object-contain"
-                />
-                nline
-              </span>
-              <br />
-              <span>Dreams</span>
-              <br />
-              <span>Makers</span>
-            </h1>
-            <div className="w-full flex justify-end">
+        </div>
+        <div className="w-full flex justify-center">
     <p className=" text-xl md:text-2xl text-gray-400 max-w-3xl mb-8">
-      UN ECOSISTEMA EN EL QUE <br />SOLO UNOS POCOS SABEN JUGAR
+      UN ECOSISTEMA EN EL QUE SOLO UNOS POCOS SABEN JUGAR
     </p>
   </div>
-        </div>
           </div>
 
            
@@ -94,7 +91,7 @@ export default function Hero() {
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce z-10">
         <svg
           className="w-6 h-6"
-          style={{ color: "#b8860b" }}
+          style={{ color: "#fff" }}
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

@@ -3,11 +3,11 @@ import "../../styles/CardExclusiveService.css";
 
 export default function CardExclusiveService() {
   return (
-    <section className="ces-section">
+    <section className="ces-section max-w-[1440px] mx-auto">
     
       <h2>Packs Exclusivos</h2>
       <p>
-        EXPERIENCAS ÚNICAS PARA TU MARCA
+         EL PAQUETE PERFECTO PARA CAAD AMBICION
       </p>
     <div className="flex flex-wrap justify-center items-center gap-8 py-10">
       {/* Première carte : Brisa (Bleue) */}

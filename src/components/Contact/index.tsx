@@ -4,12 +4,12 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <section className="relative z-10 flex flex-col items-center bg-black text-white py-10 px-4">
+    <section className="relative z-10 flex flex-col items-center bg-black text-white py-10 px-4 max-w-[1440px] mx-auto">
        <h2 className="text-[clamp(3.5rem,5vw,3rem)] font-bold text-center mb-4">Contactanos</h2>
        <p className="text-[#a3a3a3]">
-        Y impulsa tu marca al no se que
+        Y LLEVA TU MARCA A NUEVAS ALTURAS
       </p>
-      <form className=" p-8 rounded-lg shadow-lg w-full max-w-md space-y-6 ">
+      <form className="  rounded-lg shadow-lg w-full space-y-6 ">
 
         <div className="relative">
           <label className="absolute left-0 top-2 text-gray-400 transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-yellow-500 peer-valid:-top-4 peer-valid:text-xs peer-valid:text-yellow-500">
@@ -55,12 +55,15 @@ export default function ContactForm() {
           ></textarea>
         </div>
         
-        <button
-          type="submit"
-          className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-2 rounded transition duration-300"
-        >
-          Enviar
-        </button>
+      <div className="relative ml-4 group flex justify-center">
+            <a
+    href="#Contacto"
+    className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-center font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#fff8dc]/5 shadow-md group mx-auto w-[200px]"
+  >
+    <span className="relative z-10">Enviar</span>
+    <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
+  </a>
+          </div>
       </form>
     </section>
   );

@@ -20,7 +20,7 @@
 }
 .ces-section p {
   font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
-  margin: 0 auto 1rem;
+  margin: -1rem auto 1rem;
   text-align: center;
  z-index: 1;
   position: relative;

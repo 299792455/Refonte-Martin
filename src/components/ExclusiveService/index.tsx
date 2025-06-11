@@ -3,15 +3,13 @@ import "../../styles/ExclusiveService.css";
 
 const ExclusiveService: React.FC = () => {
   return (
-    <section
-      id="advertisers"
-      className="advertisers-service-sec pt-5 pb-5"
-    >
-      <span>nuestro</span>
-      <h2>EQUIPO</h2>
-      <p>
-        UN EQUIPO CON VISIÓN, CORAZÓN Y ACCIÓN
-      </p>
+   <section
+  id="advertisers"
+  className="advertisers-service-sec relative z-10 flex flex-col items-center bg-black text-white py-10 px-4"
+>
+
+      
+     
       <div className="container">
         <div className="row">
           <div className="section-header text-center">

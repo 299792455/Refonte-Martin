@@ -33,6 +33,10 @@ body {
   background: var(--background);
     font-family: 'Space Mono', monospace;
   color: #ffffff;
+  
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,4 +53,9 @@ p {
 
 .nav-link, .mobile-nav-link, .contact-btn {
   font-family: 'Montserrat', sans-serif;
+}
+
+#home {
+  max-width: none !important;
+  width: 100%;
 }

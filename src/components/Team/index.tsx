@@ -4,7 +4,7 @@ import "../../styles/Team.css";
 
 const Team: React.FC = () => {
   return (
-    <section className="team-section">
+    <section className="team-section max-w-[1440px] mx-auto">
       <span>nuestro</span>
       <h2>EQUIPO</h2>
       <p>

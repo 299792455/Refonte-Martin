@@ -5,7 +5,9 @@ section .text-gray-400 {
   text-align: left;
  z-index: 1;
   position: relative;
-  color: #a3a3a3
+  color: #a3a3a3;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -14,13 +16,26 @@ section .text-gray-400 {
   max-width: 1440px;
   
 }
-.service-title {
+section h2 {
   font-size: clamp(2rem, 1.6rem + 1.6vw, 3rem);
   font-weight: 700;
   font-family: 'horizon', sans-serif;
   text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 2rem;
+  z-index: 1;
+  position: relative;
 }
 
+section > p {
+  font-size: clamp(1rem, 0.8rem + 0.4vw, 1.2rem);
+  color: #a3a3a3;
+  text-align: center;
+  max-width: 40rem;
+  margin: -2rem auto 2rem;
+  position: relative;
+  z-index: 1;
+}
 
 .card::before {
   position: absolute;
