@@ -61,25 +61,25 @@ section > p {
  
   bottom: 0;
   right: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 100% 100%);
+  clip-path: circle(calc(2rem + 2.5vw) at 100% 100%);
 }
 
 .card:nth-child(2)::before {
   bottom: 0;
   left: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 0% 100%);
+  clip-path: circle(calc(2rem + 2.5vw) at 0% 100%);
 }
 
 .card:nth-child(3)::before {
   top: 0;
   right: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 100% 0%);
+  clip-path: circle(calc(2rem + 2.5vw) at 100% 0%);
 }
 
 .card:nth-child(4)::before {
   top: 0;
   left: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 0% 0%);
+  clip-path: circle(calc(2rem + 2.5vw) at 0% 0%);
 }
 
 .card p {
@@ -105,26 +105,26 @@ section > p {
   border: #b8860b solid 1px;
   bottom: 0;
   right: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 100% 100%);
+  clip-path: circle(calc(2rem + 2.5vw) at 100% 100%);
 }
 
 .card:nth-child(2) .circle {
   border: #b8860b solid 1px;
   bottom: 0;
   left: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 0% 100%);
+  clip-path: circle(calc(2rem + 2.5vw) at 0% 100%);
 }
 
 .card:nth-child(3) .circle {
   border: #b8860b solid 1px;
   top: 0;
   right: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 100% 0%);
+  clip-path: circle(calc(2rem + 2.5vw) at 100% 0%);
 }
 
 .card:nth-child(4) .circle {
   border: #b8860b solid 1px;
   top: 0;
   left: 0;
-  clip-path: circle(calc(4.375rem + 5vw) at 0% 0%);
+  clip-path: circle(calc(2rem + 2.5vw) at 0% 0%);
 }
