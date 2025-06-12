@@ -46,13 +46,14 @@ export default function ContactForm() {
         <div className="relative">
           
           <label className="absolute left-0 top-2 text-gray-400 transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-yellow-500 peer-valid:-top-4 peer-valid:text-xs peer-valid:text-yellow-500">
-            Tu Mensaje
+            Tu Mensaje*
           </label>
           <textarea
             required
             rows={4}
             className="peer w-full border-b-2 border-gray-300 bg-transparent py-2 text-white focus:outline-none focus:border-yellow-500 resize-none"
           ></textarea>
+          <p>*Para nosotros es muy importante acompañarte en cada parte del proceso. Por eso, cuanta más información pongas en este apartado nos será más fácil darte una personalización completa y lo más optimizada posible 😊</p>
         </div>
         
       <div className="relative ml-4 group flex justify-center">

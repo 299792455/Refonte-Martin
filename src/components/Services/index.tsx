@@ -17,7 +17,8 @@ export default function Services() {
             <p className="text-gray-400">
               Impulsa tu marca en las redes sociales con contenido cautivador y auténtico. 
         Generamos impacto con estrategias creativas y coherentes. <br /><br />
-        Conéctate de forma orgánica con tu audiencia.
+        Conéctate de forma orgánica con tu audiencia.<br />
+        No es tener más números, sino que tú vendas más
             </p>
           </div>
         </div>
@@ -28,9 +29,7 @@ export default function Services() {
           <div className="relative lg:pl-48">
             <h3 className="capitalize text-white mb-4 service-title">Diseño <br />  Web</h3>
             <p className="text-gray-400">
-      Creamos sitios web que no solo son bellos, sino también funcionales.
-Potenciamos la experiencia del usuario para convertir cada visita en un logro.<br /> <br />
-Tu presencia digital, a la altura de tu visión.
+      Especializados en sitios web de alto nivel con la última tecnología (React, Next, Node). <br /><br />Hoy en día no basta con solo hacer un sitio bonito, sino que tiene que estar totalmente optimizado y adaptado a versiones móviles.
     </p>
           </div>
         </div>
@@ -42,7 +41,7 @@ Tu presencia digital, a la altura de tu visión.
                   <p className="text-gray-400">
       Transformamos ideas en historias visuales que impactan y conectan.
 Cada video es una pieza única, pensada para emocionar y fidelizar.<br /><br />
-Haz que tu mensaje brille en cada cuadro.
+Ahora deja que todo el mundo se enamore de tu marca.
     </p>
          
           </div>

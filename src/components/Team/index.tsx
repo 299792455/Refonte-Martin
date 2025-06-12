@@ -65,7 +65,7 @@ realidades</p>
         <div className="card">
           <img
             src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            alt="Travis Lynch"
+            alt="Assier Cooper"
           />
           <div className="card-content">
             <h3>Assier</h3>
