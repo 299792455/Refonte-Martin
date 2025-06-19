@@ -97,6 +97,9 @@
   white-space: pre-line;
 }
 
+.team-section .card-content p {
+  text-align: center;
+}
 .team-section .card::before {
   position: absolute;
   content: "";

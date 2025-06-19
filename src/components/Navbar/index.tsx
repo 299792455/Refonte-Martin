@@ -29,7 +29,7 @@ export default function Navbar() {
     
     <nav
       id="navbar"
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-[#b8860b]/40 backdrop-blur-lg px-6 py-3 ${
+      className={`fixed top-0 left-0 right-0 z-100 transition-all duration-300 border-b border-[#b8860b]/40 backdrop-blur-lg px-6 py-3 ${
         scrolled ? "bg-black-900/70" : "bg-black-900/50"
       }`}
     >
