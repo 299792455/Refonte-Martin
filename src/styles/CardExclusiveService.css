@@ -5,9 +5,10 @@
 }
 
 .ces-card {
-  width: 410px;
+  width: 100%;
+  max-width: 380px;
   height: 270px;
-  perspective: 1000px;
+perspective: 1000px;
 }
 
 /* CardExclusiveService.css */

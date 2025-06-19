@@ -5,11 +5,12 @@ import "../../styles/Team.css";
 const Team: React.FC = () => {
   return (
     <section className="team-section max-w-[1440px] mx-auto">
+      <div className="px-4">
       <span>nuestro</span>
-      <h2>EQUIPO</h2>
-      <p>
-        UN EQUIPO CON VISIÓN, CORAZÓN Y ACCIÓN
-      </p>
+        <h2>EQUIPO</h2>
+        <p>
+          UN EQUIPO CON VISIÓN, CORAZÓN Y ACCIÓN
+        </p>
       <span className="bg-watermark">team</span>
       <div className="cards">
         <div className="card">
@@ -20,20 +21,21 @@ const Team: React.FC = () => {
           <div className="card-content">
             <h3>Martin</h3>
             <p>Fundador y
-estraega de
-alto vuelo</p>
-            <ul>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-x-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-linkedin-in" />
-                </a>
-              </li>
-            </ul>
+            estraega de
+            alto vuelo
+            </p>
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <i className="fa-brands fa-x-twitter" />
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <i className="fa-brands fa-linkedin-in" />
+                            </a>
+                          </li>
+                        </ul>
           </div>
         </div>
 
@@ -87,6 +89,7 @@ contenido</p>
           </div>
         </div>
         
+      </div>
       </div>
     </section>
   );

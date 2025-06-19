@@ -3,13 +3,16 @@ import "../../styles/CardExclusiveService.css";
 
 export default function CardExclusiveService() {
   return (
-    <section className="ces-section max-w-[1440px] mx-auto px-4 sm:px-6">
+    <section className="ces-section max-w-[1440px] mx-auto px-4 sm:px-6 ">
       <h2>Packs Exclusivos</h2>
       <p>EL PAQUETE PERFECTO PARA CAAD AMBICION</p>
 
-      <div className="flex flex-wrap justify-center items-center gap-8 py-10">
+     <div className="grid gap-8 py-10 px-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+
+
         {/* Carte 1 : Brisa */}
-        <div className="ces-card w-full sm:w-[330px] md:w-[380px] lg:w-[410px]">
+        <div className="ces-card mx-auto">
           <div className="ces-flip">
             <div className="ces-front ces-front-brisa">
               <div className="ces-strip-bottom"></div>
@@ -56,7 +59,7 @@ export default function CardExclusiveService() {
         </div>
 
         {/* Carte 2 : Impulso */}
-        <div className="ces-card w-full sm:w-[330px] md:w-[380px] lg:w-[410px]">
+        <div className="ces-card mx-auto">
           <div className="ces-flip">
             <div className="ces-front ces-front-impulso">
               <div className="ces-strip-bottom"></div>
@@ -103,7 +106,7 @@ export default function CardExclusiveService() {
         </div>
 
         {/* Carte 3 : Accelerador */}
-        <div className="ces-card w-full sm:w-[330px] md:w-[380px] lg:w-[410px]">
+        <div className="ces-card mx-auto">
           <div className="ces-flip">
             <div className="ces-front ces-front-accelerador">
               <div className="ces-strip-bottom"></div>
@@ -150,7 +153,7 @@ export default function CardExclusiveService() {
         </div>
 
         {/* Carte 4 : Elite */}
-        <div className="ces-card w-full sm:w-[330px] md:w-[380px] lg:w-[410px]">
+        <div className="ces-card lg:col-start-2 mx-auto">
           <div className="ces-flip">
             <div className="ces-front ces-front-elite">
               <div className="ces-strip-bottom"></div>

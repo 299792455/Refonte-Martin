@@ -4,12 +4,14 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <section className="relative z-10 flex flex-col items-center bg-black text-white py-10 px-4 max-w-[1440px] mx-auto">
-       <h2 className="text-[clamp(3.5rem,5vw,3rem)] font-bold text-center mb-4">Contactanos</h2>
+    <section className="relative z-10 flex flex-col items-center bg-black text-white py-20 px-4 sm:px-6 max-w-[1440px] mx-auto">
+
+       <h2 className="text-[clamp(3.5rem,5vw,3rem)] font-bold text-center mb-4">Contacto</h2>
        <p className="text-[#a3a3a3]">
         Y LLEVA TU MARCA A NUEVAS ALTURAS
       </p>
-      <form className="  rounded-lg shadow-lg w-full space-y-6 ">
+      <form className="w-full max-w-2xl space-y-6 mt-10 px-8">
+
 
         <div className="relative">
           <label className="absolute left-0 top-2 text-gray-400 transition-all peer-focus:-top-4 peer-focus:text-xs peer-focus:text-yellow-500 peer-valid:-top-4 peer-valid:text-xs peer-valid:text-yellow-500">
