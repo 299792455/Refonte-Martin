@@ -67,26 +67,29 @@ export default function Hero() {
 
         <div className="flex flex-col items-center text-center max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] xl:max-w-[50vw] gap-4">
 
-          <div className="relative mb-4">
+          <div className="relative mb-3">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
-              className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight flex flex-col items-center"
+              className="font-bold text-white pb-2 relative text-[clamp(2rem,4vw,3rem)] max-w-full leading-tight flex flex-col items-center"
             >
-              <span className="flex items-center">
+              <span className="flex items-center -ml-4 -mb-2 sm:mb-0">
                 <img
                   src="/medias/Design sans titre.png"
                   alt="Logo"
                   className="inline-block w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
                 />
-                <span className="-ml-2 text-[clamp(1.6rem,5vw,2.8rem)]">
+                <span className="-ml-2 uppercase text-white font-bold text-[clamp(2rem,4vw,3rem)] leading-none tracking-wide text-center">
+
                   nline
                 </span>
               </span>
-             <span className="uppercase text-white font-bold text-[clamp(1.5rem,6vw,2.8rem)] leading-none tracking-wide text-center">
-  DreamsMakers
+             <span className="uppercase text-white font-bold text-[clamp(2rem,4vw,3rem)] leading-none tracking-wide text-center  sm:pl-0">
+  Dreams
+  <span className="block sm:inline">Makers</span>
 </span>
+
             </motion.h1>
           </div>
 

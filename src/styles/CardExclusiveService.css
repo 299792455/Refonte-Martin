@@ -12,11 +12,14 @@
 
 /* CardExclusiveService.css */
 .ces-section h2 {
-  font-size: clamp(3.5rem, 3rem + 1.6vw, 3rem); /* Responsive */
+  font-size: clamp(2rem, 4vw, 3rem); /* Responsive */
   margin: 0 auto 1rem;
   text-align: center;
  z-index: 1;
   position: relative;
+   word-break: break-word;
+  max-width: 100%;
+  line-height: 1.1;
 }
 .ces-section p {
   font-size: clamp(0.9rem, 0.825rem + 0.3vw, 1.2rem);
@@ -346,3 +349,9 @@
   transform: translateX(3px); /* Légère translation pour indiquer le mouvement */
 }
 
+@media screen and (max-width: 768px) {
+  .ces-card {
+    width: 100% !important;
+    max-width: 100%;
+  }
+}
