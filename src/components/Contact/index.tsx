@@ -10,7 +10,7 @@ export default function ContactForm() {
        <p className="text-[#a3a3a3]">
         Y LLEVA TU MARCA A NUEVAS ALTURAS
       </p>
-      <form className="w-full max-w-2xl space-y-6 mt-10 px-8">
+      <form className="w-full  space-y-6 mt-10 px-8">
 
 
         <div className="relative">
