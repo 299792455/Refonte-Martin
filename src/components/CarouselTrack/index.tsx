@@ -1,41 +1,34 @@
 'use client';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const items = [
-  '****',
-  '/',
-  'NECESITO',
-  '/',
-  'SU',
-  'CONTENIDO',
-  '!',
-  'Y LAS FOTOS DEL TEAM',
-  '****',
-  'ANTES',
-  'DEL',
-  'DESPLEGO',
+  'DISFRUTA DE TU OFERTA DE BIENVENIDA EN LA CONTRATACIÓN DE CADA PACK',
+  '***',
+  'DISFRUTA DE TU OFERTA DE BIENVENIDA EN LA CONTRATACIÓN DE CADA PACK',
+  '***',
 ];
 
 export default function CarouselTrack() {
   const trackRef = useRef<HTMLDivElement>(null);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const track = trackRef.current;
     if (!track) return;
 
-    const fullItems = [...items, ...items]; // Duplication pour boucle fluide
+    const fullItems = [...items, ...items];
     track.innerHTML = '';
 
     fullItems.forEach((item) => {
       const div = document.createElement('div');
       div.className =
-        'px-8 py-4 text-[2.5rem] xl:text-[3rem] text-[#fff] font-light whitespace-nowrap font-funnel';
+        'px-6 py-1 text-[1.5rem] xl:text-[2rem] text-white font-light whitespace-nowrap font-funnel';
       div.textContent = item;
       track.appendChild(div);
     });
 
     let position = 0;
-    const speed = 3.5;
+    const speed = 2;
 
     const animate = () => {
       position -= speed;
@@ -49,8 +42,20 @@ export default function CarouselTrack() {
     animate();
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50); // Masque si on descend un peu
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="w-full overflow-hidden border-y border-[#b8860b] rotate-[0.1deg]">
+    <div
+      className={`fixed top-[105px] left-0 w-full z-40 bg-black overflow-hidden border-y border-[#b8860b] transition-transform duration-500 ${
+        scrolled ? '-translate-y-full' : 'translate-y-0'
+      }`}
+    >
       <div ref={trackRef} className="flex whitespace-nowrap will-change-transform" />
     </div>
   );

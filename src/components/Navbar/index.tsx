@@ -25,6 +25,8 @@ export default function Navbar() {
   const navLinks = ["Inicio", "Servicios", "PacksExclusivos", "Equipo"];
 
   return (
+    <>
+    
     <nav
       id="navbar"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-[#b8860b]/40 backdrop-blur-lg px-6 py-3 ${
@@ -132,5 +134,6 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+    </>
   );
 }
