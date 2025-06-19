@@ -17,7 +17,7 @@ function FloatingPaths({ position }: { position: number }) {
   }));
 
   return (
-    <div className="absolute inset-0 pointer-events-none z-0 " >
+    <div className="absolute inset-0 pointer-events-none z-0">
       <svg
         className="w-full h-full text-[#dfa30b] dark:text-[#dfa30b]"
         viewBox="0 0 696 316"
@@ -53,7 +53,8 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden "style={{ maxWidth: "100%" }}
+      className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden"
+      style={{ maxWidth: "100%" }}
     >
       {/* Motion background intégré */}
       <div className="absolute inset-0 z-0">
@@ -61,37 +62,42 @@ export default function Hero() {
         <FloatingPaths position={-1} />
       </div>
 
-      {/* Contenu Hero inchangé */}
-      <div className="container mx-auto px-6 py-20 relative z-10">
-        <div className="flex flex-col items-center text-center">
+      {/* Contenu Hero */}
+      <div className="w-full px-4 sm:px-6 py-20 relative z-10 flex justify-center">
+
+        <div className="flex flex-col items-center text-center max-w-[90vw] sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] xl:max-w-[50vw] gap-4">
+
           <div className="relative mb-4">
-            {/* Animation sur le titre */}
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
               className="font-bold text-white pb-2 relative text-[clamp(2.25rem,5vw,4rem)] max-w-full leading-tight flex flex-col items-center"
             >
-              <span className="flex items-center ">
+              <span className="flex items-center">
                 <img
                   src="/medias/Design sans titre.png"
                   alt="Logo"
-                  className="inline-block w-20 h-20 md:w-25 md:h-25 object-contain "
+                  className="inline-block w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-contain"
                 />
-                <span className="-ml-3">nline</span>
+                <span className="-ml-2 text-[clamp(1.6rem,5vw,2.8rem)]">
+                  nline
+                </span>
               </span>
-              <span>DreamsMakers</span>
+             <span className="uppercase text-white font-bold text-[clamp(1.5rem,6vw,2.8rem)] leading-none tracking-wide text-center">
+  DreamsMakers
+</span>
             </motion.h1>
           </div>
 
-          <div className="w-full flex justify-center">
+          <div className="w-full flex justify-center ">
             <motion.p
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 1, ease: "easeOut" }}
-              className="text-xl md:text-2xl text-gray-400 max-w-3xl mb-8"
+              className="text-base sm:text-lg md:text-xl text-gray-400 max-w-md sm:max-w-xl mb-8 px-2  text-center !text-center"
             >
-              UN ECOSISTEMA EN EL QUE SOLO UNOS POCOS SABEN JUGAR
+              UN ECOSISTEMA EN EL QUE SOLO <br/> UNOS POCOS SABEN JUGAR
             </motion.p>
           </div>
         </div>
