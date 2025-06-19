@@ -8,7 +8,7 @@ import CardExclusiveService from "@/components/CardExclusiveService";
 
 export default function Home() {
   return (
-    <main className="pt-[112px] bg-black text-white font-['Space_Grotesk']">
+    <main className=" bg-black text-white font-['Space_Grotesk']">
       <Background />
       <section id="Inicio"><Hero /></section>
       <section id="Servicios"><Services /></section>

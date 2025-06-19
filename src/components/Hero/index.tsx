@@ -53,7 +53,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{ maxWidth: "100%" }}
     >
       {/* Motion background intégré */}
