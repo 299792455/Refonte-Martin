@@ -8,7 +8,7 @@ export default function Services() {
       <p>UNA SINERGIA SOLIDA PARA SU EXITO</p>
 
       <div className="grid-offer grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 text-white">
-        {/* Carte 1 */}
+        {/* Carta 1 */}
         <div className="card p-6 sm:p-10 relative">
           <div className="circle"></div>
           <div className="relative text-left">
@@ -24,7 +24,7 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Carte 2 (titre aligné à droite) */}
+        {/* Carta 2  */}
         <div className="card p-6 sm:p-10 relative">
           <div className="circle"></div>
           <div className="relative text-right">
@@ -39,7 +39,7 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Carte 3 */}
+        {/* Carta 3 */}
         <div className="card p-6 sm:p-10 relative">
           <div className="circle"></div>
           <div className="relative text-left">
@@ -54,7 +54,7 @@ export default function Services() {
           </div>
         </div>
 
-        {/* Carte 4 (titre aligné à droite) */}
+        {/* Carta 4 */}
         <div className="card p-6 sm:p-10 relative">
           <div className="circle"></div>
           <div className="relative text-right">
