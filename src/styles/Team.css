@@ -110,6 +110,7 @@
   background: linear-gradient(to left, #ff9472, #b8860b);
   top: -0.375rem;
   left: -0.375rem;
+  
 }
 
 .team-section .card::after {
@@ -220,6 +221,8 @@
   .team-section .cards {
     margin-top: 3rem;
     grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+    
   }
 
   .team-section .card-content {
@@ -243,4 +246,6 @@
   .team-section .card:nth-child(4) {
     transform: none !important;
   }
+
+  
 }

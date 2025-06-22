@@ -145,7 +145,7 @@ export default function CardExclusiveService() {
                   <li>6 reels de alto rendimiento</li>
                   <li>150€ en publicidad estratégica</li>
                   <li>Estadísticas avancées y seguimiento constante</li>
-                  <li>Asesoría personalizada para potenciar tu marca</li>
+                  <li>Asesoría para potenciar tu marca</li>
                 </ul>
               </div>
             </div>
