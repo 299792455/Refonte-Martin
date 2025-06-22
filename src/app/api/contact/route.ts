@@ -4,33 +4,43 @@ import { LRUCache } from 'lru-cache';
 
 const rateLimiter = new LRUCache<string, number>({
   max: 500,
-  ttl: 1000 * 60,
+  ttl: 1000 * 60, // 1 minuto
 });
 
 export async function POST(req: NextRequest) {
   try {
     const { name, email, phone, message, honeypot } = await req.json();
 
+    // Honeypot activado
     if (honeypot) {
-      return NextResponse.json({ error: 'Bot détecté.' }, { status: 400 });
+      return NextResponse.json(
+        { error: '⚠️ Acción bloqueada. Si eres humano, no completes ese campo.' },
+        { status: 400 }
+      );
     }
 
+    // Campos requeridos faltantes
     if (!name || !email || !message || !phone) {
-      return NextResponse.json({ error: 'Champs requis manquants.' }, { status: 400 });
+      return NextResponse.json(
+        { error: 'Faltan campos obligatorios. Por favor revisa el formulario.' },
+        { status: 400 }
+      );
     }
 
+    // Límite de frecuencia por IP
     const ip = req.headers.get("x-forwarded-for") || "unknown";
     const key = `ip:${ip}`;
 
     if (rateLimiter.has(key)) {
       return NextResponse.json(
-        { error: 'Trop de requêtes. Réessaie dans une minute.' },
+        { error: 'Has enviado demasiadas solicitudes. Intenta nuevamente en un minuto.' },
         { status: 429 }
       );
     }
 
     rateLimiter.set(key, Date.now());
 
+    // Configuración del transporte SMTP
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -39,6 +49,7 @@ export async function POST(req: NextRequest) {
       },
     });
 
+    // Opciones del email
     const mailOptions = {
       from: process.env.GMAIL_USER,
       to: process.env.GMAIL_USER,
@@ -57,7 +68,10 @@ ${message}
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error('Erreur email:', error);
-    return NextResponse.json({ error: 'Échec de l’envoi du message' }, { status: 500 });
+    console.error('Error al enviar el correo:', error);
+    return NextResponse.json(
+      { error: '❌ Ha ocurrido un error al enviar el mensaje. Intenta nuevamente más tarde.' },
+      { status: 500 }
+    );
   }
 }
