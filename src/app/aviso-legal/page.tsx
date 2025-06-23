@@ -1,5 +1,8 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "Aviso Legal | OnlineDreamsMakers",
+  
 };
 
 export default function AvisoLegalPage() {
@@ -82,13 +85,14 @@ export default function AvisoLegalPage() {
 
         {/* Lien retour */}
         <div className="relative group flex justify-center mt-12">
-  <a
-    href="/"
-    className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#1a1a1a] shadow-md group w-[200px] text-center"
-  >
-    <span className="relative z-10">Volver al inicio</span>
-    <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
-  </a>
+ 
+<Link
+  href="/"
+  className="relative overflow-hidden px-6 py-3 border border-[#b8860b] text-[#d4af37] text-base font-medium rounded-lg tracking-wide transition-all duration-300 hover:border-[#d4af37] hover:bg-[#1a1a1a] shadow-md group w-[200px] text-center"
+>
+  <span className="relative z-10">Volver al inicio</span>
+  <span className="absolute left-[-100%] top-[-50%] w-48 h-24 rotate-45 bg-white/20 group-hover:translate-x-[250%] transition-transform duration-[1100ms] ease-in-out blur-sm z-0" />
+</Link>
 </div>
 
       </div>
