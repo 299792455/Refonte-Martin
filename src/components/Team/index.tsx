@@ -15,7 +15,7 @@ const Team: React.FC = () => {
       <div className="cards">
         <div className="card">
           <img
-            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://i.postimg.cc/RFGqWw58/Noe.jpg"
             alt="Franklin Carlson"
           />
           <div className="card-content">
@@ -26,22 +26,17 @@ const Team: React.FC = () => {
             </p>
                         <ul>
                           <li>
-                            <a href="#">
-                              <i className="fa-brands fa-x-twitter" />
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <i className="fa-brands fa-linkedin-in" />
-                            </a>
-                          </li>
+  <a href="https://www.instagram.com/onlinedreamsmakers.es/" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-instagram" />
+  </a>
+</li>
                         </ul>
           </div>
         </div>
 
         <div className="card">
           <img
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://i.postimg.cc/yYGghhgC/Martin.jpg"
             alt="Antonia Moore"
           />
           <div className="card-content">
@@ -51,22 +46,17 @@ de
 realidades</p>
             <ul>
               <li>
-                <a href="#">
-                  <i className="fa-brands fa-x-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-linkedin-in" />
-                </a>
-              </li>
+  <a href="https://www.instagram.com/onlinedreamsmakers.es/" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-instagram" />
+  </a>
+</li>
             </ul>
           </div>
         </div>
 
         <div className="card">
           <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&amp;w=1887&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://i.postimg.cc/d3tk64jw/Assier.jpg"
             alt="Assier Cooper"
           />
           <div className="card-content">
@@ -75,16 +65,11 @@ realidades</p>
 cósmico de
 contenido</p>
             <ul>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-x-twitter" />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i className="fa-brands fa-linkedin-in" />
-                </a>
-              </li>
+             <li>
+  <a href="https://www.instagram.com/onlinedreamsmakers.es/" target="_blank" rel="noopener noreferrer">
+    <i className="fa-brands fa-instagram" />
+  </a>
+</li>
             </ul>
           </div>
         </div>

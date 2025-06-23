@@ -22,13 +22,13 @@ export default function CarouselTrack() {
     fullItems.forEach((item) => {
       const div = document.createElement('div');
       div.className =
-        'px-6 py-1 text-[1.5rem] xl:text-[2rem] text-white font-light whitespace-nowrap font-funnel';
+        'px-6 py-[0.3rem] text-[1.2rem] xl:text-[1.6rem] text-white font-light whitespace-nowrap font-funnel';
       div.textContent = item;
       track.appendChild(div);
     });
 
     let position = 0;
-    const speed = 2;
+    const speed = window.innerWidth < 768 ? 0.5 : 1.5;
 
     const animate = () => {
       position -= speed;
@@ -44,7 +44,7 @@ export default function CarouselTrack() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50); // Masque si on descend un peu
+      setScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
